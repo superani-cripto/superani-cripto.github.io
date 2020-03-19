@@ -96,7 +96,7 @@ body {
 }
 
 .container {
-	width: 90%;
+	width: 1140px;
 	margin: 0 auto;
 }
 
@@ -243,6 +243,7 @@ nav ul li {
     margin: 5vh 0;
     display: block;
 }
+
 nav ul li a {
     font-family: 'Open Sans', sans-serif;
     font-weight: 800;
@@ -269,6 +270,10 @@ nav ul li a.open-done {
 	font-weight: 600;
 	text-transform: uppercase;
 	font-size: 45px;
+}
+
+ul {
+	padding: 0;
 }
 
 .services {
@@ -769,7 +774,7 @@ nav ul li a.open-done {
 .kvartira {
 	position: absolute;
     top: 30%;
-    left: 0;
+    margin-left: -70px;
 }
 
 .about__right {
@@ -928,6 +933,8 @@ nav ul li a.open-done {
 
 .title__item {
     padding-top: 100px;
+    display: flex;
+    justify-content: space-around;
 }
 
 .section7__work {
@@ -1265,6 +1272,7 @@ nav ul li a.open-done {
 	.kvartira {
 	    position: absolute;
 	    top: 8%;
+	    margin: 0 auto;
 	    left: 15%;
 	}
 }
@@ -2275,7 +2283,7 @@ nav ul li a.open-done {
 	}
 
 	.btn-section6 {
-		margin-left: 70px;
+		margin: 0 auto;
 	}
 
 	.column-p1 {
@@ -2306,7 +2314,7 @@ nav ul li a.open-done {
 	}
 
 	.menu p::before {
-	    margin: 5px 10px 35px 0;
+	    margin: 5px 10px 25px 0;
 	}
 
 	.button {
@@ -2512,9 +2520,6 @@ nav ul li a.open-done {
 }
 
 @media screen and (max-width: 450px) {
-	.btn-section6 {
-		margin-left: 30px;
-	}
 
 	.column-p1 {
 		padding-left: 40px;

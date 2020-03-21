@@ -1249,7 +1249,7 @@ ul {
     transition: 0.4s;
 }
 
-button.active {
+.box.active {
 	color: #fff;
     background-color: #e6b87c;
     transition: 0.4s;

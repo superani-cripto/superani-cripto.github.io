@@ -44,7 +44,7 @@ $ (function() {
     });
 });
 
-$(document).on('click','btn1 btn2 btn3', function(){
+$(document).on('click','.box', function(){
     $(this).addClass('active').siblings().removeClass('active')
 });
 

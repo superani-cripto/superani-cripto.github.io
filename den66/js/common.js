@@ -22,20 +22,32 @@ $('.open-button').click(function()
         }
 });
 
-$(document).ready(function() {
-
-    $('.slider').slick({
-        arrows:false,
-        dots:false,
-        slidesToShow:1,
-        slidesToScroll:1,
-        speed:1000,
-        infinite:false,
-        draggable:false,
-        swipe:false,
+$ (function() {
+    $('.btn2') .ready (function() {
+        $('.title__item2') .hide();
+        $('.title__item3') .hide();
+    })
+    $('#btn2') .click(function() {
+        $('.title__item') .hide();
+        $('.title__item3') .hide();
+        $('.title__item2') .show(300);
+    })
+     $('#btn1') .click(function() {
+        $('.title__item3') .hide();
+        $('.title__item2') .hide();
+        $('.title__item') .show(300);
+    })
+      $('#btn3') .click(function() {
+        $('.title__item') .hide();
+        $('.title__item2') .hide();
+        $('.title__item3') .show(300);
     });
-
 });
+
+$(document).on('click','button', function(){
+    $(this).addClass('active').siblings().removeClass('active')
+});
+
 
 
 

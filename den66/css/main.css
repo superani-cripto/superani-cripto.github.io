@@ -925,6 +925,8 @@ ul {
     display: block;
     color: #444444;
     border-radius: 10px;
+    border: none;
+    cursor: pointer;
 }
 
 .btn2 {
@@ -939,6 +941,8 @@ ul {
     display: block;
     color: #444444;
     border-radius: 10px;
+    border: none;
+    cursor: pointer;
 }
 
 .btn3 {
@@ -952,7 +956,9 @@ ul {
     text-align: center;
     display: block;
     color: #444444;
+    cursor: pointer;
     border-radius: 10px;
+    border: none;
 }
 
 .title__item {
@@ -1237,6 +1243,24 @@ ul {
     transition: 0.4s;
 }
 
+.btn2:hover {
+    color: #fff;
+    background-color: #e6b87c;
+    transition: 0.4s;
+}
+
+button.active {
+	color: #fff;
+    background-color: #e6b87c;
+    transition: 0.4s;
+}
+
+.btn3:hover {
+    color: #fff;
+    background-color: #e6b87c;
+    transition: 0.4s;
+}
+
 .section7__button__two:hover {
     box-shadow: 1px 1px 20px 4px #e4b87c;
 }
@@ -1256,21 +1280,6 @@ ul {
     transition: .1.8s linear;
 }
 
-.slider {
-  position: relative;
-}
-
-.slider .slick-list {
-  overflow: hidden;
-  margin: 0 auto;
-}
-/* Лента слайдов */
-.slick-track {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-}
 
 @media screen and (max-width: 1275px) {
 	.kvadrat-border {

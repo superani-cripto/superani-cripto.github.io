@@ -22,4 +22,20 @@ $('.open-button').click(function()
         }
 });
 
-$('body').toggleClass('lock');
+$(document).ready(function() {
+
+    $('.slider').slick({
+        arrows:false,
+        dots:false,
+        slidesToShow:1,
+        slidesToScroll:1,
+        speed:1000,
+        infinite:false,
+        draggable:false,
+        swipe:false,
+    });
+
+});
+
+
+

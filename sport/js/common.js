@@ -33,3 +33,16 @@ $('.open-button').click(function()
             setTimeout(function(){$('.menu-block-2').removeClass('open-done')}, 600);
         }
 });
+
+    const anchors = document.querySelectorAll('a[href*="#"]')
+
+    for (let anchor of anchors) {
+        anchor.addEventListener("click", function(event){
+            event.preventDefault();
+            const blockID = anchor.getAttribute('href')
+            document.querySelector('' + blockID).scrollIntoView({
+                behavior:"smooth",
+                block:"start"
+            })
+          })
+        }

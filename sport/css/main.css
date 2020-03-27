@@ -1830,7 +1830,15 @@ header {
     clip-path: polygon(0 0, 100% 0, 100% 10%, 0% 100%);
   }
 }
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 605px) {
+  .slider .slick-dots {
+    margin-top: 30px;
+  }
+  .slider .slick-dots li {
+    list-style: none;
+    margin: 10px 10px 0px 10px;
+    cursor: pointer;
+  }
   .services {
     display: -webkit-box;
     display: -webkit-flex;

@@ -46,3 +46,11 @@ $('.open-button').click(function()
             })
           })
         }
+
+         $(function (){
+
+            AOS.init();
+
+    });   
+
+        

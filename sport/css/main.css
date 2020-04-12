@@ -434,6 +434,19 @@ header {
   height: 315px;
   background-color: #fff;
 }
+
+.block2 {
+  width: 345px;
+  height: 315px;
+  background-color: #fff;
+}
+
+.block3 {
+  width: 345px;
+  height: 315px;
+  background-color: #fff;
+}
+
 .block1__item {
   width: 325px;
   height: 254px;
@@ -1011,6 +1024,17 @@ header {
     width: 292px;
     height: 310px;
   }
+
+  .block2 {
+    width: 292px;
+    height: 310px;
+  }
+
+  .block3 {
+    width: 292px;
+    height: 310px;
+  }
+
   .block1__item {
     width: 280px;
     height: 260px;
@@ -1191,6 +1215,17 @@ header {
     width: 230px;
     height: 280px;
   }
+
+  .block2 {
+    width: 230px;
+    height: 280px;
+  }
+
+  .block3 {
+    width: 230px;
+    height: 280px;
+  }
+
   .block1__item {
     width: 210px;
     height: 210px;
@@ -1699,6 +1734,23 @@ header {
     z-index: 3;
     margin: 30px;
   }
+
+  .block2 {
+    width: 230px;
+    height: 280px;
+    position: relative;
+    z-index: 3;
+    margin: 30px;
+  }
+
+  .block3 {
+    width: 230px;
+    height: 280px;
+    position: relative;
+    z-index: 3;
+    margin: 30px;
+  }
+
   .section2:after {
     margin-top: -110px;
   }

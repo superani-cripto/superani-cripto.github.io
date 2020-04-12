@@ -2537,3 +2537,9 @@ header {
     text-align: center;
   }
 }
+
+#tr-popup[data-hidden="true"] {
+    opacity: 0;
+    visibility: hidden;
+    display: none;
+}

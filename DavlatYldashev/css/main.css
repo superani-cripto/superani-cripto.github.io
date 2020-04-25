@@ -1520,3 +1520,18 @@ a {
 	width: 60px;
 	height: 60px;
 }
+
+@media screen and (max-width: 1350px) {
+    .container {
+        width: 100%;
+    }
+
+    .potfolio__img {
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+        width: 95%;
+        margin: 0 auto;
+        margin-top: 20px;
+    }
+}

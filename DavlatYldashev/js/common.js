@@ -44,11 +44,3 @@ $('.open-button').click(function()
 
     }); 
 
-$(document).ready(function(){
-    $(window).scroll(function(){
-        if($(window).scrollTop()>'#header'){
-            $('#skils').fadeIn(900)
-        }else{
-        }
-    });
-});

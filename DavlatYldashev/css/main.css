@@ -81,8 +81,10 @@
 }
 /*Preloader end*/
 header {
-  background: #121212;
-  height: 100vh;
+    min-height: 100vh;
+    width: 100%;
+    font-family: "Hack";
+    position: relative;
 }
 body {
   font-family: 'Montserrat', sans-serif;

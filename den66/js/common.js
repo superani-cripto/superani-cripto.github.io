@@ -1,3 +1,14 @@
+$(document).ready(function() {
+    $('.slider').slick({
+        arrows:true,
+        dots:false,
+        slidesToShow:1,
+        slidesToScroll:1,
+        speed:1000,
+    });
+
+});
+
 $('.open-button').click(function() 
 {
         if(!$('.menu-button').hasClass('open-done'))
@@ -48,6 +59,17 @@ $(document).on('click','.box', function(){
     $(this).addClass('active').siblings().removeClass('active')
 });
 
+$(document).ready(function() {
+    $('.slider').slick({
+        arrows:true,
+        dots:false,
+        slidesToShow:3,
+        slidesToScroll:1,
+        speed:1000,
+        adaptiveHeight:true,
+    });
+
+});
 
 
 

@@ -66,7 +66,6 @@ p {
   text-transform: uppercase;
   padding: 20px 0 0 10px;
   position: relative;
-  z-index: 2;
 }
 .header__content__left h1 {
   font-size: 38px;
@@ -661,6 +660,10 @@ select::-ms-expand {
   font-weight: 300;
   text-decoration: none;
   display: block;
+}
+
+.footer__content a:hover {
+  color: #e68282;
 }
 .footer__content__first {
   display: -webkit-box;

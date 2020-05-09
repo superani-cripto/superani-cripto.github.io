@@ -1,0 +1,215 @@
+* {
+  padding: 0;
+  margin: 0;
+  outline: none;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+	font-family: 'Roboto', sans-serif;
+}
+
+.container {
+	width: 760px;
+	margin: 0 auto;
+}
+
+.form {
+	background: url(../img/rega-bg.jpg) no-repeat center top/cover;
+	width: 750px;
+	display: flex;
+	justify-content: space-around;
+	height: 410px;
+	box-shadow: 9px 7px 1px 0px rgb(134, 172, 202);
+	border-radius: 55px;
+}
+
+.registration h1 {
+	position: relative;
+	font-size: 40px;
+	text-align: center;
+	padding-top: 70px;
+	padding-bottom: 15px;
+	font-weight: 400;
+	color: #000;
+	text-transform: uppercase;
+}
+
+.form__item {
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+}
+
+input {
+	font-size: 18px;
+	color: #000;
+	padding: 8px 0px 8px 13px;
+    width: 330px;
+    margin-top: 50px;
+    border-radius: 5px;
+    font-weight: 400;
+    background: #bdccd1;
+    border: none;
+	box-shadow: 0px 6px 1px 0px rgb(238, 186, 186);
+}
+
+.box.active {
+	background: #f3d7d4;
+}
+
+.rega {
+	display: flex;
+	justify-content: space-between;
+	width: 89%;
+}
+
+.button__one {
+    font-size: 27px;
+    width: 180px;
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    padding: 10px 0;
+    margin-top: 53px;
+    border-radius: 15px;
+    color: #fff;
+    background-color: #eebaba;
+    transition: 0.2s linear;
+}
+
+.button__one:hover {
+	color: #eebaba;
+    background-color: #fff;
+}
+
+.button__two {
+    font-size: 27px;
+    width: 300px;
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    padding: 10px 0;
+    margin: 0 auto;
+    margin-top: 140px;
+    border-radius: 15px;
+    color: #fff;
+    transition: 0.2s linear;
+    background-color: #eebaba;
+}
+
+.button__two:hover {
+	color: #eebaba;
+    background-color: #fff;
+}
+
+::-webkit-input-placeholder {
+  color: #000;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+  transform: skew(-5deg);
+}
+::-moz-placeholder {
+  color: #121212;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+  transform: skew(-5deg);
+}
+
+@media screen and (max-width: 760px) {
+	.container {
+		width: 98%;
+	}
+
+	.form {
+		width: 99%;
+	}
+
+	input {
+		width: 100%;
+	}
+
+	.form__item {
+		width: 48%;
+	}
+}
+
+@media screen and (max-width: 650px) {
+	.button__one {
+	    font-size: 23px;
+	    width: 130px;
+	    padding: 8px 0;
+	}
+
+	.button__two {
+	    font-size: 22px;
+	    width: 246px;
+	    padding: 8px 0;
+	}
+
+	.registration h1 {
+		font-size: 35px;
+	}
+}
+
+@media screen and (max-width: 560px) {
+	input {
+		font-size: 15px;
+	}
+
+	.registration h1 {
+		font-size: 30px;
+	}
+
+	.button__two {
+	    font-size: 18px;
+	    width: 200px;
+	    margin-top: 137px;
+	}
+
+	.button__one {
+	    font-size: 18px;
+	    width: 110px;
+	    padding: 8px 0;
+	}
+
+	.form {
+		height: 385px;
+		margin-left: -2px;
+	}
+}
+
+@media screen and (max-width: 500px) {
+	.registration h1 {
+		font-size: 25px;
+	} 
+}
+
+@media screen and (max-width: 420px) {
+	.registration h1 {
+		font-size: 23px;
+	} 
+
+	.button__two {
+	    font-size: 14px;
+	    width: 148px;
+	    margin-top: 137px;
+	}
+
+	.button__one {
+	    font-size: 15px;
+	    width: 94px;
+	    padding: 8px 0;
+	}
+}
+
+@media screen and (max-width: 380px) {
+	input {
+    	font-size: 13px;
+	}
+
+	.registration h1 {
+    	font-size: 21px;
+	}
+}

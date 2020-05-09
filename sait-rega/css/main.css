@@ -67,9 +67,14 @@ input {
 	margin-top: 30px;
 	border-radius: 5px;
 	color: #fff;
+	transition: 0.2s linear;
 	background-color: #eebaba;
 }
 
+.form__item a:hover {
+	color: #eebaba;
+	background-color: #fff;
+}
 ::-webkit-input-placeholder {
   color: #000;
   font-family: 'Roboto', sans-serif;

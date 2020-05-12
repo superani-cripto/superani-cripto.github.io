@@ -553,8 +553,12 @@ select::-ms-expand {
 .month a:hover {
   color: #ed4c4c;
 }
-.box.active {
+.box1.active {
   color: #ed4c4c;
+}
+
+.box.active {
+  background: #f3d7d4;
 }
 .month__left a {
   text-decoration: none;
@@ -1442,3 +1446,4 @@ select::-ms-expand {
     height: 440px;
   }
 }
+

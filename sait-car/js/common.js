@@ -75,3 +75,7 @@ $('.open-button').click(function()
 $(document).on('click','.box', function(){
     $(this).addClass('active').siblings().removeClass('active')
 });
+
+$(document).on('click','.box1', function(){
+    $(this).addClass('active').siblings().removeClass('active')
+});

@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title></title>
+	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+	<link href="https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700;900&family=Rubik:wght@300;400;500;700;900&display=swap" rel="stylesheet">
+	<script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+	<link rel="stylesheet" href="css/main.css">
+	<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet"> 
+	<link rel="icon" href="favicon.ico" type="image/x-icon">
+	<link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+</head>
+<body>
+<header id="header">
+	<div class="container">
+			<div class="heading">
+				<div class="logo" data-aos="fade-right" data-aos-delay="300" data-aos-duration="800"  data-aos-easing="linear">
+					<img src="img/logo.svg" alt="">
+				</div>
+				<div class = "menu-button open-button" data-aos="fade-left" data-aos-delay="200" data-aos-duration="800"  data-aos-easing="linear"></div>
+				<div class = "menu-block-1"></div>
+				<nav>
+					<ul class="menu">
+						<li data-aos="fade-up" data-aos-delay="400" data-aos-duration="800"  data-aos-easing="linear">
+							<a href="#" class = "menu-link-1 open-button">Почему мы?</a>
+						</li>
+						<li data-aos="fade-right" data-aos-delay="500" data-aos-duration="800"  data-aos-easing="linear">
+							<a href="#" class = "menu-link-2 open-button">Номера</a>
+						</li>
+						<li data-aos="fade-right" data-aos-delay="600" data-aos-duration="800"  data-aos-easing="linear">
+							<a href="#" class = "menu-link-3 open-button">Отзывы</a>
+						</li>
+						<li data-aos="fade-right" data-aos-delay="700" data-aos-duration="800"  data-aos-easing="linear">
+							<a href="#" class = "menu-link-4 open-button">Как нас найти</a>
+						</li>
+					</ul>
+				</nav>
+			</div>
+			<div class="header__title" data-aos="fade-right" data-aos-delay="800" data-aos-duration="800"  data-aos-easing="linear">
+				<h1>
+					Наши номера
+				</h1>
+			</div>
+			<div class="parameters" id="parameters" data-aos="fade-left" data-aos-delay="800" data-aos-duration="800"  data-aos-easing="linear">
+				<div class="parameters__item">
+					<a href="#" class="box"><img src="img/up-str.svg" alt=""> По площади</a>
+					<a href="#" class="box"><img src="img/down-str.svg" alt=""> По площади</a>
+					<a href="#" class="box"><img src="img/up-str.svg" alt=""> По цене</a>
+					<a href="#" class="box"><img src="img/down-str.svg" alt=""> По цене</a>
+				</div>
+				<div class="arrow-up" >
+					<a href="#" id="arrow-up"><img src="img/arrow.svg" alt=""></a>
+				</div>
+			</div>
+			<div class="header__content">
+				<div class="left__content">
+					<div class="price" data-aos="fade-right" data-aos-delay="800" data-aos-duration="800"  data-aos-easing="linear">
+						<p class="price__title">
+							Цена за сутки, ₽
+						</p>
+						<div class="price__item">
+							<p>от 100</p>
+							<p>до 600</p>
+						</div>
+					</div>
+					<div class="area" data-aos="fade-up" data-aos-delay="200" data-aos-duration="800"  data-aos-easing="linear">
+						<p class="title__area">
+							Площадь
+						</p>
+						<div class="area__item">
+							<input type="checkbox" class="checkbox">
+							<p>0,63 м2</p>
+						</div>
+						<div class="area__item">
+							<input type="checkbox" class="checkbox">
+							<p>0,90 м2</p>
+						</div>
+						<div class="area__item">
+							<input type="checkbox" class="checkbox">
+							<p>1,13 м2</p>
+						</div>
+						<div class="area__item">
+							<input type="checkbox" class="checkbox">
+							<p>1,56 м2</p>
+						</div>
+						<div class="area__item">
+							<input type="checkbox" class="checkbox">
+							<p>2,56 м2</p>
+						</div>
+						<div class="area__item">
+							<input type="checkbox" class="checkbox">
+							<p>2,56 м2</p>
+						</div>
+					</div>
+					<div class="area" data-aos="fade-down" data-aos-delay="200" data-aos-duration="800"  data-aos-easing="linear">
+						<p class="title__area">
+							Oснащение номера
+						</p>
+						<div class="area__item">
+							<input type="checkbox" class="checkbox">
+							<p>Пустой номер</p>
+						</div>
+						<div class="area__item">
+							<input type="checkbox" class="checkbox">
+							<p>Лежак</p>
+						</div>
+						<div class="area__item">
+							<input type="checkbox" class="checkbox">
+							<p>Когтеточка</p>
+						</div>
+						<div class="area__item">
+							<input type="checkbox" class="checkbox">
+							<p>Игровой-комплекс</p>
+						</div>
+						<div class="area__item">
+							<input type="checkbox" class="checkbox">
+							<p>Домик</p>
+						</div>
+					</div>
+					<div class="button__left__content" data-aos="fade-down" data-aos-delay="200" data-aos-duration="800"  data-aos-easing="linear">
+						<a href="#">Применить</a>
+						<a href="#">Сбросить фильтр</a>
+					</div>
+				</div>
+				<div class="right__content">
+					<div class="right__content__block1" data-aos="fade-right" data-aos-delay="200" data-aos-duration="800"  data-aos-easing="linear">
+						<div class="cet1">
+							<img src="img/cet1.jpg" alt="">
+						</div>	
+						<div class="cet1__text">
+							<h2>
+								Эконом
+							</h2>	
+							<p>
+								Размеры (ШхГхВ) - 90х70х180 см
+							</p>
+							<p>
+								Площадь - 0,63 м2
+							</p>
+							<p class="flex-text">
+								Оснащение номера <img src="img/icon1.svg" alt="">
+							</p>
+							<p>
+								Цена за сутки: <span class="span__cet"> 100₽</span>
+							</p>
+							<a href="#" class="btn__cet1">Забронировать <img src="img/paw.svg" alt=""></a>
+						</div>
+					</div>
+					<div class="right__content__block1" data-aos="fade-right" data-aos-delay="400" data-aos-duration="800"  data-aos-easing="linear">
+						<div class="cet1">
+							<img src="img/cet2.jpg" alt="">
+						</div>	
+						<div class="cet1__text">
+							<h2>
+								Эконом Плюс
+							</h2>	
+							<p>
+								Размеры (ШхГхВ) - 100х70х180 см
+							</p>
+							<p>
+								Площадь - 0,90 м2
+							</p>
+							<p class="flex-text">
+								Оснащение номера <img src="img/icon2.svg" alt="">
+								<img src="img/icon3.svg" alt="">
+							</p>
+							<p>
+								Цена за сутки: <span class="span__cet"> 200₽</span>
+							</p>
+							<a href="#" class="btn__cet1">Забронировать <img src="img/paw.svg" alt=""></a>
+						</div>
+					</div>
+					<div class="right__content__block1" data-aos="fade-right" data-aos-delay="600" data-aos-duration="800"  data-aos-easing="linear">
+						<div class="cet1">
+							<img src="img/cet3.jpg" alt="">
+						</div>	
+						<div class="cet1__text">
+							<h2>
+								Комфорт
+							</h2>	
+							<p>
+								Размеры (ШхГхВ) - 100х125х180 см
+							</p>
+							<p>
+								Площадь - 1,13 м2
+							</p>
+							<p class="flex-text">
+								Оснащение номера <img src="img/icon2.svg" alt="">
+								<img src="img/icon3.svg" alt=""><img src="img/icon4.svg" alt="">
+							</p>
+							<p>
+								Цена за сутки: <span class="span__cet"> 250₽</span>
+							</p>
+							<a href="#" class="btn__cet1">Забронировать <img src="img/paw.svg" alt=""></a>
+						</div>
+					</div>
+					<div class="right__content__block1" data-aos="fade-right" data-aos-delay="200" data-aos-duration="800"  data-aos-easing="linear">
+						<div class="cet1">
+							<img src="img/cet4.jpg" alt="">
+						</div>	
+						<div class="cet1__text">
+							<h2>
+								Сьют
+							</h2>	
+							<p>
+								Размеры (ШхГхВ) - 125х125х180 см
+							</p>
+							<p>
+								Площадь - 1,56 м2
+							</p>
+							<p class="flex-text">
+								Оснащение номера <img src="img/icon2.svg" alt="">
+								<img src="img/icon3.svg" alt=""><img src="img/icon4.svg" alt="">
+							</p>
+							<p>
+								Цена за сутки: <span class="span__cet"> 350₽</span>
+							</p>
+							<a href="#" class="btn__cet1">Забронировать <img src="img/paw.svg" alt=""></a>
+						</div>
+					</div>
+					<div class="right__content__block1" data-aos="fade-right" data-aos-delay="400" data-aos-duration="800"  data-aos-easing="linear">
+						<div class="cet1">
+							<img src="img/cet5.jpg" alt="">
+						</div>	
+						<div class="cet1__text">
+							<h2>
+								Люкс
+							</h2>	
+							<p>
+								Размеры (ШхГхВ) - 160х160х180 см
+							</p>
+							<p>
+								Площадь - 2,56 м2
+							</p>
+							<p class="flex-text">
+								Оснащение номера <img src="img/icon2.svg" alt=""><img src="img/icon3.svg" alt=""><img src="img/icon4.svg" alt=""><img src="img/icon5.svg" alt="">
+							</p>
+							<p>
+								Цена за сутки: <span class="span__cet"> 500₽</span>
+							</p>
+							<a href="#" class="btn__cet1">Забронировать <img src="img/paw.svg" alt=""></a>
+						</div>
+					</div>
+					<div class="right__content__block1" data-aos="fade-right" data-aos-delay="600" data-aos-duration="800"  data-aos-easing="linear">
+						<div class="cet1">
+							<img src="img/cet6.jpg" alt="">
+						</div>	
+						<div class="cet1__text">
+							<h2>
+								Супер-Люкс
+							</h2>	
+							<p>
+								Размеры (ШхГхВ) - 180х160х180 см
+							</p>
+							<p>
+								Площадь - 2,88 м2
+							</p>
+							<p class="flex-text">
+								Оснащение номера <img src="img/icon2.svg" alt=""><img src="img/icon3.svg" alt=""><img src="img/icon4.svg" alt=""><img src="img/icon5.svg" alt="">
+							</p>
+							<p>
+								Цена за сутки: <span class="span__cet"> 600₽</span>
+							</p>
+							<a href="#" class="btn__cet1">Забронировать <img src="img/paw.svg" alt=""></a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+</header>
+<section id="section2">
+	<div class="container">
+		
+	</div>
+</section>
+<section id="section3">
+	<div class="container">
+		
+	</div>
+</section>
+<section id="section4">
+	<div class="container">
+			
+	</div>
+</section>
+<footer id="footer">
+	<div class="container">
+		
+	</div>
+</footer>
+
+	<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+	<script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+	<script src="js/slick.min.js"></script>
+	<script src="js/common.js"></script>
+    <script>
+		document.body.onload = function() {
+
+			setTimeout(function() {
+				var preloader = document.getElementById('preloader');
+				if(!preloader.classList.contains('done') ) {
+					preloader.classList.add('done');
+				}
+			}, 1000);
+
+		}
+	</script> 
+</body>
+</html>

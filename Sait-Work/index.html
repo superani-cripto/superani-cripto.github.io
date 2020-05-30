@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title></title>
+	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+	<script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+	<link href="https://fonts.googleapis.com/css2?family=Fira+Sans:wght@300;400;500;600;700&family=Roboto+Condensed:wght@300;400;700&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@100;200;300&display=swap" rel="stylesheet">
+	<link href="https://cdnjs.cloudflare.com/ajax/libs/noUiSlider/9.2.0/nouislider.css" rel="stylesheet">
+	<link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+<header id="header">
+	<div class="container">
+		<div class="header__content">
+			<div class="heading">
+				<div class="logo">
+					<img src="img/logo.png" alt="">
+				</div>
+				<div class="contact">
+					<div class="contact__icon">
+						<a href="#"><img src="img/insta.png" alt=""></a>
+						<a href="#"><img src="img/youtube.png" alt=""></a>
+						<a href="#"><img src="img/facebook.png" alt=""></a>
+						<a href="#"><img src="img/telegramm.png" alt=""></a>
+					</div>
+					<div class="contact__item">
+						<p>
+							Пн.-Сб.: с 10:00 до 20:00
+						</p>
+						<a href="tel:+7777777777">
+							<img src="img/tel.png" alt="">
+							+7 (777) 777 77 77 
+						</a>
+					</div>
+				</div>
+			</div>
+			<nav>
+				<ul class="menu">
+					<li>
+						<a href="#">Главная страница</a>
+					</li>
+					<li>
+						<a href="#">О нас</a>
+					</li>
+					<li>
+						<a href="#">Квартиры <img src="img/arrow-menu.png" alt=""></a>
+					</li>
+					<li>
+						<a href="#">Коттеджы/Особняки <img src="img/arrow-menu.png" alt=""></a>
+					</li>
+					<li>
+						<a href="#" class="menu_a">Коммерческая недвижимость</a>
+					</li>
+				</ul>
+			</nav>
+			<div class="header__content__item">
+				<div class="header__min__content">
+					<div class="header__min__content__item1">
+						<h5>
+							Поиск
+						</h5>
+						<input type="text" placeholder="Название ЖК, улица, метро, район" class="input1">
+
+						<div class="area">
+							<h5>
+								Площадь, м2
+							</h5>
+							<div class="area__item">
+								<input value="10" id="input-with-keypress-0" class="input2"></input>
+								<div class="line"></div>
+								<input value="40" id="input-with-keypress-1" class="input2"></input>
+							</div>
+							<div id="range-slider"></div>
+						</div>
+					</div>
+					<div class="header__min__content__item2">
+						<h5>
+							Вид недвижимости
+						</h5>
+						<select name="text" id="select">
+							<option value="">Городская недвижимость</option>
+							<option value="">Городская недвижимость</option>
+							<option value="">Городская недвижимость</option>
+							<option value="">Городская недвижимость</option>
+							<option value="">Городская недвижимость</option>
+						</select>
+						
+						<div class="price">
+							<div class="price__item1">
+								<h6>
+									Цена, тыс.руб.
+								</h6>
+								<div class="price__input">
+									<input placeholder="30" id="input-with-keypress-0" class="input2"></input>
+									<div class="line"></div>
+									<input placeholder="7950" id="input-with-keypress-1" class="input2"></input>
+								</div>	
+							</div>
+							<div class="price__item2">
+								<a href="#" class="box">₽ RUB</a>
+								<a href="#" class="box">$ USD</a>
+								<a href="#" class="box">€ EUR</a>
+							</div>
+						</div>
+						<a href="#" class="big__button">
+							Поиск
+						</a>
+					</div>
+				</div>
+			</div>
+			<div class="header__content__bottom">
+				<div class="header__content__bottom__item1">
+					<div class="header__content__bottom__text">
+						<a href="#" class="button__one">Подбор</a>
+						<a href="#" class="button__two">Недвижимости</a>
+					</div>
+					<a href="#" class="icon__header__bottom"><img src="img/house__icon.png" alt="" class="house__icon"></a>
+				</div>
+				<div class="header__content__bottom__item1">
+					<a href="#" class="icon__header__bottom"><img src="img/icon-video.png" alt="" class="icon__video"></a>
+					<div class="header__content__bottom__text">
+						<a href="#" class="button__fri">Видео</a>
+						<a href="#" class="button__for">Презентация</a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</header>
+<section id="section2">
+	<div class="container">
+		<div class="section2__content">
+			<div class="section2__title">
+				<h1>
+					Лучшие предложения
+				</h1>
+			</div>
+			<div class="section2__content__item">
+				<div class="product">
+					<ul>
+						<li>
+							<div class="descr">
+								<div class="title__descr">
+									<h4>
+										3-х комнатная квартира,  Московская обл., г. <br> Реутов
+									</h4>
+									<h3>
+										13 500 000 руб.
+									</h3>
+								</div>
+								<div class="descr__text">
+									<p>
+										<img src="img/icon2.png" alt="">82,8 м2 
+									</p>
+									<h6>
+										<img src="img/icon3.png" alt="">ул. Золоторожский <br>Вал, вл. 11, корп. 10
+									</h6>
+								</div>
+							</div>
+							<a href="#"><img src="img/photo1.png" alt="" class="photo"></a>
+						</li>
+					</ul>
+				</div>
+				<div class="product__two">
+					<ul>
+						<li>
+							<div class="hover__block">
+								<div class="title__hover__block">
+									<h4>
+										2-х комнатная<br> квартира,   г.Москва
+									</h4>
+									<h3>
+										9 763 000 руб.
+									</h3>
+								</div>	
+								<div class="stronk"></div>
+								<div class="services">
+									<p>
+										<img src="img/icon1.png" alt="">
+										152 071 руб./м2
+									</p>
+									<p>
+										<img src="img/icon2.png" alt="">
+										64,2 м2
+									</p>
+									<p>
+										<img src="img/icon3.png" alt="">
+										пр-д 3-й Автозаводский, вл. 13
+									</p>
+									<p>
+										<img src="img/icon4.png" alt="">
+										23/35 этаж
+									</p>
+								</div>	
+							</div>
+							<a href="#"><img src="img/photo2.png" alt="" class="photo"></a>
+						</li>
+					</ul>
+				</div>
+				<div class="product">
+					<ul>
+						<li>
+							<div class="descr">
+								<div class="title__descr">
+									<h4>
+										3-х комнатная квартира,  Московская обл., г. <br> Луховицы
+									</h4>
+									<h3>
+										7 253 000 руб.
+									</h3>
+								</div>
+								<div class="descr__text">
+									<p>
+										<img src="img/icon2.png" alt="">73,1 м2 
+									</p>
+									<h6>
+										<img src="img/icon3.png" alt="">ул. Верхняя, д. 20, <br> корп. 1
+									</h6>
+								</div>
+							</div>
+							<a href="#"><img src="img/photo3.png" alt="" class="photo"></a>
+						</li>
+					</ul>
+				</div>
+			</div>
+			<div class="section2__content__item">
+				<div class="product">
+					<ul>
+						<li>
+							<div class="descr">
+								<div class="title__descr">
+									<h4>
+										4-х комнатная квартира,  Московская обл., г. <br> Мытища
+									</h4>
+									<h3>
+										35 270 000 руб.
+									</h3>
+								</div>
+								<div class="descr__text">
+									<p>
+										<img src="img/icon2.png" alt="">121,5 м2 
+									</p>
+									<h6>
+										<img src="img/icon3.png" alt="">б-р Ореховый, вл. 24, <br> корп. 2, стр. 2
+									</h6>
+								</div>
+							</div>
+							<a href="#"><img src="img/photo4.png" alt="" class="photo"></a>
+						</li>
+					</ul>
+				</div>
+				<div class="product">
+					<ul>
+						<li>
+							<div class="descr">
+								<div class="title__descr">
+									<h4>
+										3-х комнатная квартира,  г.Москва
+									</h4>
+									<h3>
+										19 516 000 руб.
+									</h3>
+								</div>
+								<div class="descr__text">
+									<p>
+										<img src="img/icon2.png" alt="">71,7 м2 
+									</p>
+									<h6>
+										<img src="img/icon3.png" alt="">пр-д 3-й <br> Автозаводский, вл. 13
+									</h6>
+								</div>
+							</div>
+							<a href="#"><img src="img/photo5.png" alt="" class="photo"></a>
+						</li>
+					</ul>
+				</div>
+				<div class="product">
+					<ul>
+						<li>
+							<div class="descr">
+								<div class="title__descr">
+									<h4>
+										3-х комнатная квартира,  Московская обл., г. <br> Балашиха
+									</h4>
+									<h3>
+										17 982 000 руб.
+									</h3>
+								</div>
+								<div class="descr__text">
+									<p>
+										<img src="img/icon2.png" alt="" >114,6 м2 
+									</p>
+									<h6 id="descr__text__item">
+										<img src="img/icon3.png" alt="" class="descr__img6">ул. Погодинская, д. 4
+									</h6>
+								</div>
+							</div>
+							<a href="#"><img src="img/photo6.png" alt="" class="photo"></a>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+	
+
+	<script src="https://yastatic.net/jquery/2.1.3/jquery.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/noUiSlider/9.2.0/nouislider.js"></script>
+	<script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+	<script src="js/slick.min.js"></script>
+	<script src="js/common.js"></script>
+</body>
+</html>

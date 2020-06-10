@@ -133,6 +133,17 @@
       -ms-flex-pack: justify;
           justify-content: space-between;
 }
+.menu span {
+  font-size: 9px;
+  background: #F0F0F0;
+  border-radius: 7px;
+  width: 27px;
+  position: absolute;
+  text-align: center;
+  padding: 3px;
+  margin-top: -32px;
+  margin-left: 63px;
+}
 .menu li {
   display: block;
   padding-top: 23px;
@@ -146,6 +157,11 @@
   display: flex;
   font-weight: 300;
   text-decoration: none;
+}
+.menu a:hover {
+  -webkit-text-decoration-line: underline;
+          text-decoration-line: underline;
+  color: #0099DA;
 }
 .icon-3D {
   width: 26px;

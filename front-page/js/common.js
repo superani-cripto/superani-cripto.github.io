@@ -1,6 +1,11 @@
 $(function () {
   const anchors = document.querySelectorAll('a[href*="#"]');
-
+  for (let anchor of anchors) {
+    anchor.addEventListener("click", function (event) {
+      event.preventDefault();
+      const blockID = anchor.getAttribute("href");
+    });
+  }
   $(document).ready(function() {
   $('.slider').slick({
     arrows:false,
@@ -14,12 +19,10 @@ $(function () {
   });
 });
 
-  for (let anchor of anchors) {
-    anchor.addEventListener("click", function (event) {
-      event.preventDefault();
-      const blockID = anchor.getAttribute("href");
-    });
-  }
+$('.popup-youtube').magnificPopup({ 
+    type: 'iframe' 
+ });
+
 
 });
 
@@ -27,9 +30,7 @@ $(document).on("click", ".box", function () {
   $(this).addClass("active").siblings().removeClass("active");
 });
 
-$('.popup-youtube').magnificPopup({ 
-    type: 'iframe' 
- });
+
 
 
 

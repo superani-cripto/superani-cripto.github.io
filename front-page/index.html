@@ -4,14 +4,36 @@
 	<meta charset="UTF-8">
 	<title>Document</title>
 	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
-	<script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
-	<link rel="icon" href="favicon.ico" type="image/x-icon">
-	<link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
 	<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
-	<link rel="stylesheet" href="/css/magnific-popup.css">
 	<link rel="stylesheet" href="css/main.css">
 </head>
 <body>
+	<div class="video__form">
+		<div class="video__form__content">
+			<a href="#" class="video__form__exit">
+			<span class="line1"></span>
+			<span class="line2"></span>
+		</a>
+			<iframe width="630" height="365" src="https://www.youtube.com/embed/pC4iis9ybfM" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+		</div>
+	</div>
+	<div class="form__tel">
+		<div class="form__tel__item">
+			<h1>
+				Обратный звонок	
+			</h1>
+			<a href="#" class="exit-form"></a>
+			<div class="form__action">
+				<input type="text" placeholder="Имя">
+				<input type="text" placeholder="Телефон или E-mail">
+			</div>
+			<div class="radio">
+				<input type="checkbox">
+				<a href="#">Я принимаю <span>условия по обработке моих данных</span></a>
+			</div>	
+			<a href="#" class="form__btn">Перезвонить</a>		
+		</div>
+	</div>
 	<header>
 		<div class="header__content">
 			<div class="heading">
@@ -102,7 +124,7 @@
 				</nav>
 			</div>
 		</div>
-	</header>
+	</header>	
 	<div class="slider">
 		<div class="slider__item">
 			<section id="section1">
@@ -253,8 +275,13 @@
 				<div class="about">
 					<div class="video">
 						<div class="video__item">
-							<img src="img/video-previy.svg" alt="" class="photo__video">
-							<a  class="popup-youtube" href="https://www.youtube.com/watch?v=YJENZr-nUTA"><img src="img/play-btn.svg" alt=""></a>
+							<img src="img/video-previy.svg" alt="">
+							<a  href="#"><img src="img/play-btn.svg" alt=""></a>
+						</div>
+					</div>
+					<div class="video__form">
+						<div class="video__form__content">
+							<iframe width="560" height="315" src="https://www.youtube.com/embed/pC4iis9ybfM" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 						</div>
 					</div>
 					<div class="about__text">
@@ -582,9 +609,7 @@
 		</div>
 	</footer>
 
-	
-	<script src="//ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-	<script src="/js/jquery.magnific-popup.min.js"></script>
+	<script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
 	<script src="js/slick.min.js"></script>
 	<script src="js/common.js"></script>
 </body>

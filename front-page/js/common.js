@@ -22,6 +22,18 @@ $(function () {
           slidesToShow:4,
           slidesToScroll:1,
         }
+      },{
+        breakpoint: 965,
+        settings: {
+          slidesToShow:3,
+          slidesToScroll:1,
+        }
+      },,{
+        breakpoint: 710,
+        settings: {
+          slidesToShow:2,
+          slidesToScroll:1,
+        }
       },
     ]
   });
@@ -59,6 +71,11 @@ $ (function() {
     })
    
 });
+
+$('.burger__item').click(function(event) {
+    $('.menu__burger,.line1__burger,.line2__burger,.line3__burger').toggleClass('active');
+    $('body').toggleClass('lock');
+  });
 
 
 

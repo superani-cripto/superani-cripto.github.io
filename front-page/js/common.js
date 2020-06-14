@@ -16,6 +16,24 @@ $(function () {
           slidesToShow:5,
           slidesToScroll:1,
         }
+      },{
+        breakpoint: 880,
+        settings: {
+          slidesToShow:4,
+          slidesToScroll:1,
+        }
+      },{
+        breakpoint: 750,
+        settings: {
+          slidesToShow:3,
+          slidesToScroll:1,
+        }
+      },{
+        breakpoint: 600,
+        settings: {
+          slidesToShow:2,
+          slidesToScroll:1,
+        }
       },
     ]
   });
@@ -36,13 +54,13 @@ $ (function() {
         $('.form__tel') .hide();
         $('.video__form') .hide();
     })
-    $('.button__tel a') .click(function() {
+    $('.button__tel a,.nav__tel__form a') .click(function() {
         $('.form__tel') .show();
     })
     $('.exit-form') .click(function() {
         $('.form__tel') .hide();
     })
-    $('.button__tel a') .click(function() {
+    $('.button__tel a,.nav__tel__form a') .click(function() {
         $('.form__tel') .show();
     })
     $('.video__item a') .click(function() {

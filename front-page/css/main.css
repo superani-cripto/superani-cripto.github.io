@@ -2598,7 +2598,7 @@
   .form__tel__item h1 {
     font-size: 30px;
     padding-top: 25px;
-    padding-bottom: 23px;
+    padding-bottom: 0px;
   }
   .form__action input {
     width: 97%;

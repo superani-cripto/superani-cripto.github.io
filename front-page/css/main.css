@@ -2952,6 +2952,8 @@
   .burger {
     height: 45px;
     padding-top: 5px;
+    display: flex;
+    justify-content: flex-end;
   }
   .burger__item {
     height: 34px;
@@ -3809,7 +3811,7 @@
     width: 290px;
   }
 }
-@media screen and (max-width: 440px) {
+@media screen and (max-width: 460px) {
   .heading {
     width: 350px;
   }

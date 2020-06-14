@@ -11,27 +11,9 @@ $(function () {
     slidesToShow:6,
     responsive:[
       {
-        breakpoint: 1550,
-        settings: {
-          slidesToShow:5,
-          slidesToScroll:1,
-        }
-      },{
-        breakpoint: 1330,
-        settings: {
-          slidesToShow:4,
-          slidesToScroll:1,
-        }
-      },{
         breakpoint: 1030,
         settings: {
-          slidesToShow:3,
-          slidesToScroll:1,
-        }
-      },,{
-        breakpoint: 710,
-        settings: {
-          slidesToShow:2,
+          slidesToShow:5,
           slidesToScroll:1,
         }
       },

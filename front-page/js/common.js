@@ -67,8 +67,9 @@ $ (function() {
         $('.form__tel__item') .hide();
     })
     $('.guarantees__item2 a') .click(function() {
-        $('.form__tel__item2') .show(500);
+        $('.form__tel__item2') .show();
         $('.form__tel') .show();
+        $('.form__tel__item') .hide();
     })
     $('.exit-form') .click(function() {
         $('.form__tel') .hide();
@@ -90,6 +91,12 @@ $(document).on('click','.box2', function(){
     $(this).toggleClass('active')
 });
 $(document).on('click','.box1', function(){
+    $(this).toggleClass('active')
+});
+$(document).on('click','.box4', function(){
+    $(this).toggleClass('active')
+});
+$(document).on('click','.box3', function(){
     $(this).toggleClass('active')
 });
 

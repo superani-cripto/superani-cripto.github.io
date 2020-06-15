@@ -348,6 +348,22 @@
   color: #fff ;
   background: #0099DA;
 }
+.box4:hover {
+  background: #fff !important;
+  color: #0099DA !important;
+}
+.box4.active {
+  color: #fff ;
+  background: #0099DA;
+}
+.box3:hover {
+  background: #fff !important;
+  color: #0099DA !important;
+}
+.box3.active {
+  color: #fff ;
+  background: #0099DA;
+}
 .box2:hover {
   background: #0086BF !important;
   color: #fff !important;

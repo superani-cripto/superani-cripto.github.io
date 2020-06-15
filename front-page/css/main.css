@@ -356,6 +356,11 @@
   color: #fff ;
   background: #0099DA;
 }
+
+.box5.active {
+  color: #fff ;
+  background: #0099DA;
+}
 .box3:hover {
   background: #fff !important;
   color: #0099DA !important;

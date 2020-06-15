@@ -99,7 +99,9 @@ $(document).on('click','.box4', function(){
 $(document).on('click','.box3', function(){
     $(this).toggleClass('active')
 });
-
+$(document).on('click','.box5', function(){
+    $(this).toggleClass('active')
+});
 
 
 $('.burger__item').click(function(event) {

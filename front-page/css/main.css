@@ -299,10 +299,6 @@
   -o-transition: 0.2s linear;
   transition: 0.2s linear;
 }
-.button__tel a:hover {
-  background: #fff;
-  color: #0099DA;
-}
 .search a {
   display: block;
   text-decoration: none;
@@ -345,15 +341,16 @@
   text-decoration: none;
 }
 .box1:hover {
-  background: #fff;
-  color: #0099DA;
+  background: #fff !important;
+  color: #0099DA !important;
 }
 .box1.active {
-  color: #fff !important;
+  color: #fff ;
   background: #0099DA;
 }
 .box2:hover {
-  background: #0086BF;
+  background: #0086BF !important;
+  color: #fff !important;
 }
 .box2.active {
   color: #0099DA;
@@ -3068,6 +3065,8 @@ textarea:-moz-placeholder {
   .burger {
     height: 45px;
     padding-top: 5px;
+    display: flex;
+    justify-content: flex-end;
   }
   .burger__item {
     height: 34px;

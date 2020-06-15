@@ -64,12 +64,11 @@ $ (function() {
     $('.search a') .click(function() {
         $('.form__tel') .show();
         $('.search__form') .show();
-        $('.form__tel__item2') .hide();
         $('.form__tel__item') .hide();
     })
-    $('.form__btn') .click(function() {
-        $('.form__tel__item') .hide();
+    $('.guarantees__item2 a') .click(function() {
         $('.form__tel__item2') .show(500);
+        $('.form__tel') .show();
     })
     $('.exit-form') .click(function() {
         $('.form__tel') .hide();

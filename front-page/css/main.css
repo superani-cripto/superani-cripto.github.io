@@ -349,7 +349,7 @@
   color: #0099DA;
 }
 .box1.active {
-  color: #fff;
+  color: #fff !important;
   background: #0099DA;
 }
 .box2:hover {

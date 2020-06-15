@@ -52,13 +52,28 @@ $(function () {
 $ (function() {
     $('#btn__one') .ready (function() {
         $('.form__tel') .hide();
+        $('.form__tel__item') .hide()
         $('.video__form') .hide();
+        $('.search__form') .hide();
     })
     $('.button__tel a,.nav__tel__form a') .click(function() {
         $('.form__tel') .show();
+        $('.form__tel__item') .show();
+        $('.form__tel__item2') .hide();
+    })
+    $('.search a') .click(function() {
+        $('.form__tel') .show();
+        $('.search__form') .show();
+        $('.form__tel__item2') .hide();
+        $('.form__tel__item') .hide();
+    })
+    $('.form__btn') .click(function() {
+        $('.form__tel__item') .hide();
+        $('.form__tel__item2') .show(500);
     })
     $('.exit-form') .click(function() {
         $('.form__tel') .hide();
+        $('.search__form') .hide();
     })
     $('.button__tel a,.nav__tel__form a') .click(function() {
         $('.form__tel') .show();
@@ -71,6 +86,15 @@ $ (function() {
     })
    
 });
+
+$(document).on('click','.box2', function(){
+    $(this).toggleClass('active')
+});
+$(document).on('click','.box1', function(){
+    $(this).toggleClass('active')
+});
+
+
 
 $('.burger__item').click(function(event) {
     $('.menu__burger,.line1__burger,.line2__burger,.line3__burger').toggleClass('active');

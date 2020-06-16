@@ -107,9 +107,13 @@ $(document).on('click','.number__pages__item a', function(){
 });
 
 
-
 $('.burger__item').click(function(event) {
     $('.menu__burger,.line1__burger,.line2__burger,.line3__burger').toggleClass('active');
+    $('body').toggleClass('lock');
+  });
+
+$('.blog__categories__title').click(function(event) {
+    $('.blog__categories__item__link a,.blog__categories__item__link').toggleClass('active');
     $('body').toggleClass('lock');
   });
 

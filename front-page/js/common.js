@@ -65,6 +65,7 @@ $ (function() {
         $('.form__tel') .show();
         $('.search__form') .show();
         $('.form__tel__item') .hide();
+        $('.form__tel__item2') .hide();
     })
     $('.guarantees__item2 a') .click(function() {
         $('.form__tel__item2') .show();

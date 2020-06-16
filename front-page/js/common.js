@@ -102,6 +102,10 @@ $(document).on('click','.box3', function(){
 $(document).on('click','.box5', function(){
     $(this).toggleClass('active')
 });
+$(document).on('click','.number__pages__item a', function(){
+    $(this).addClass('active').siblings().removeClass('active')
+});
+
 
 
 $('.burger__item').click(function(event) {

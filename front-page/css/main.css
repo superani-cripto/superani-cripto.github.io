@@ -448,7 +448,7 @@
 #section1 {
   min-height: 513px;
   padding-top: 1px;
-  background: url(../img/section1-bg.jpg) no-repeat center top / cover;
+  background: url(../img/section1-bg.svg) no-repeat center top / cover;
 }
 .transperant__block {
   display: block;

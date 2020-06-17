@@ -3519,11 +3519,6 @@ textarea:-moz-placeholder {
   .nav__tel__form a {
     text-decoration: none;
   }
-  .nav__tel__form a:hover {
-    color: #000;
-    border: 1px solid #000;
-    text-decoration: none !important;
-  }
   .exit-form {
     right: 7px;
     top: 7px;

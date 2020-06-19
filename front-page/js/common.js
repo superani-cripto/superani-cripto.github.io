@@ -37,6 +37,27 @@ $(function () {
       },
     ]
   });
+  $('.slider__page4').slick({
+    arrows:false,
+    dots:false,  
+    slidesToShow:1,
+    asNavFor:".min__slider__page4",
+  });
+  $('.min__slider__page4').slick({
+    arrows:true,
+    dots:false,  
+    slidesToShow:4,
+    asNavFor:".slider__page4",
+    responsive:[
+        {
+          breakpoint: 880,
+          settings: {
+            slidesToShow:3,
+            slidesToScroll:1,
+          }
+        },
+      ]
+  });
 });
 
  const anchors = document.querySelectorAll('a[href*="#"]');

@@ -65,7 +65,6 @@ $ (function() {
         $('.form__tel') .show();
         $('.search__form') .show();
         $('.form__tel__item') .hide();
-        $('.form__tel__item2') .hide();
     })
     $('.guarantees__item2 a') .click(function() {
         $('.form__tel__item2') .show();
@@ -118,6 +117,10 @@ $('.blog__categories__title').click(function(event) {
     $('body').toggleClass('lock');
   });
 
+$('.projects__categories__title').click(function(event) {
+    $('.projects__categories__item__link a,.projects__categories__item__link').toggleClass('active');
+    $('body').toggleClass('lock');
+  });
 
 
 

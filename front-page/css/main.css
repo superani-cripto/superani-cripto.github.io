@@ -9106,8 +9106,12 @@ span {
     margin-top: 10px;
     margin-left: 242px;
   }
+  .tur__3d__services__content {
+    width: 92%;
+    margin: 20px 20px 20px 20px;
+  }
 }
-@media screen and (max-width: 450px) {
+@media screen and (max-width: 460px) {
   .fon__3d__photo img {
     width: 360px;
     height: 420px;
@@ -9157,5 +9161,66 @@ span {
   }
   .tur__3d__services__item {
     width: 91%;
+  }
+   .tur__3d__services__item__block {
+    width: 155px;
+    height: 200px;
+  }
+  .tur__3d__services__item__block__blue {
+    width: 155px;
+    height: 200px;
+  }
+  .tur__3d__services__item__block h3 {
+    font-size: 17px;
+    padding-top: 17px;
+  }
+  .tur__3d__services__item__block h4 {
+    font-size: 12px;
+    padding-top: 0px;
+  }
+  .tur__3d__services__item__block span {
+    width: 45px;
+    height: 1px;
+    margin-top: 5px;
+  }
+  .tur__3d__services__item__block p {
+    font-size: 9px;
+    width: 92%;
+    padding-top: 10px;
+  }
+  .tur__3d__services__item__block h5 {
+    font-size: 17px;
+    padding-top: 13px;
+  }
+  .tur__3d__services__item__block a {
+    width: 110px;
+    padding: 7px 0;
+    margin-top: 15px;
+    font-size: 12px;
+  }
+  .tur__3d__services__item__block__blue h3 {
+    font-size: 17px;
+    padding-top: 30px;
+  }
+  .tur__3d__services__item__block__blue span {
+    width: 50px;
+    height: 1px;
+    margin-top: 7px;
+  }
+  .tur__3d__services__item__block__blue p {
+    font-size: 9px;
+    width: 90%;
+    padding-top: 12px;
+  }
+  .tur__3d__services__item__block__blue a {
+    width: 110px;
+    padding: 7px 0;
+    margin-top: 15px;
+    font-size: 12px;
+  }
+  .tur__3d__services__content {
+    width: 100%;
+    margin: 20px 15px 15px 15px;
+    margin-top: 20px;
   }
 }

@@ -8159,3 +8159,1003 @@ span {
     margin-top: 25px;
   }
 }
+@media screen and (max-width: 1330px) {
+  .page5__title h1 {
+    font-size: 130px;
+  }
+  .page5__title {
+    position: relative;
+    z-index: 1;
+    margin-top: 30px;
+  }
+  .page5__title h2 {
+    font-size: 95px;
+    margin-top: 60px;
+    margin-left: 117px;
+  }
+  .page5__title h3 {
+    font-size: 45px;
+    margin-left: 169px;
+    margin-top: 35px;
+  }
+  .page5__title h4 {
+    font-size: 39px;
+    margin-top: 5px;
+    margin-left: 169px;
+  }
+  .page5__title p {
+    margin-top: 190px;
+    width: 383px;
+    font-size: 12px;
+  }
+  .page5__title a {
+    padding: 15px 0;
+    width: 230px;
+    font-size: 17px;
+    margin-top: 360px;
+  }
+  .tours__3d__photo img {
+    width: 1074px;
+    height: 581px;
+  }
+  .tours__3d__photo {
+    margin-top: -71px;
+    position: relative;
+    left: 190px;
+  }
+  .tours__3d__menu__center {
+    padding: 16px 40px !important;
+  }
+  .tours__3d__menu a {
+    margin-top: 16px;
+    padding: 16px 0px 45px 0;
+  }
+  .tours__3d__menu {
+    width: 930px;
+    margin-top: -43px;
+  }
+  .fon__3d__photo {
+    position: relative;
+    margin-left: -160px;
+    margin-top: -90px;
+  }
+  .fon__3d__photo img {
+    width: 1083px;
+    height: 800px;
+  }
+  .tours__3d__two__item__text h1 {
+    font-size: 165px;
+    margin-left: 315px;
+    margin-top: 155px;
+  }
+  .tours__3d__two__item__text h3 {
+    font-size: 60px;
+    margin-left: 414px;
+    margin-top: 120px;
+  }
+  .tours__3d__two__item__text h2 {
+    font-size: 61px;
+    margin-top: 180px;
+    margin-left: 524px;
+  }
+  .tours__3d__two__item__text p {
+    font-size: 14px;
+    width: 390px;
+    margin-top: 270px;
+    margin-left: 701px;
+  }
+  .tours__3d__two__item__text a {
+    padding: 17px 0;
+    width: 250px;
+    font-size: 17px;
+    margin-top: 30px;
+    margin-left: 705px;
+  }
+  .tur__3d__services__title h2 {
+    font-size: 40px;
+  }
+  .tur__3d__services__content {
+    width: 93%;
+    margin: 35px 45px 45px 45px;
+  }
+  .tur__3d__services__item {
+    width: 99%;
+    margin-top: 35px;
+  }
+  .tur__3d__services__item__block {
+    width: 235px;
+    height: 300px;
+  }
+  .tur__3d__services__item__block__blue {
+    width: 235px;
+    height: 300px;
+  }
+  .tur__3d__services__item__block p {
+    font-size: 14px;
+    width: 90%;
+    padding-top: 20px;
+  }
+  .tur__3d__services__item__block h5 {
+    font-size: 23px;
+    padding-top: 20px;
+  }
+  .tur__3d__services__item__block__blue h3 {
+    font-size: 22px;
+    padding-top: 45px;
+  }
+  .tur__3d__services__item__block__blue p {
+    font-size: 14px;
+    width: 90%;
+    padding-top: 20px;
+  }
+  .tur__3d__services {
+    width: 100%;
+    height: 480px;
+  }
+  .page5__title h1 {
+    font-size: 120px;
+  }
+}
+@media screen and (max-width: 1180px) {
+  .page5__title h3 {
+    font-size: 40px;
+    margin-left: 140px;
+    margin-top: 35px;
+  }
+  .page5__title h4 {
+    font-size: 36px;
+    margin-top: 8px;
+    margin-left: 138px;
+  }
+  .page5__title h1 {
+    font-size: 110px;
+  }
+  .page5__title h2 {
+    font-size: 76px;
+    margin-top: 51px;
+    margin-left: 100px;
+  }
+  .page5__title {
+    position: relative;
+    z-index: 1;
+    margin-top: 20px;
+  }
+  .page5__title p {
+    margin-top: 160px;
+    width: 340px;
+    font-size: 11px;
+    line-height: 20px;
+  }
+  .page5__title a {
+    padding: 15px 0;
+    width: 230px;
+    font-size: 17px;
+    margin-top: 300px;
+  }
+  .tours__3d__photo {
+    margin-top: -72px;
+    position: relative;
+    left: 160px;
+  }
+  .tours__3d__photo img {
+    width: 945px;
+    height: 525px;
+  }
+  .tours__3d__menu {
+    width: 815px;
+    margin-top: -43px;
+  }
+  .tours__3d__menu a {
+    margin-top: 16px;
+    padding: 16px 0px 35px 0;
+    font-size: 14px;
+  }
+  .tours__3d__menu__center {
+    padding: 16px 30px !important;
+  }
+  .tours__3d__menu__left:hover:after {
+    width: 170px;
+    height: 3px;
+    margin-left: 14px;
+    margin-top: 32px;
+  }
+  .tours__3d__menu__center:hover:after {
+    width: 163px;
+    height: 3px;
+    margin-left: 15px;
+    margin-top: 32px;
+  }
+  .tours__3d__menu__right:hover:after {
+    width: 175px;
+    height: 3px;
+    margin-left: 32px;
+    margin-top: 32px;
+  }
+  .fon__3d__photo {
+    position: relative;
+    margin-left: -145px;
+    margin-top: -95px;
+  }
+  .fon__3d__photo img {
+    width: 930px;
+    height: 745px;
+  }
+  .tours__3d__two__item__text h1 {
+    font-size: 155px;
+    margin-left: 255px;
+    margin-top: 143px;
+  }
+  .tours__3d__two__item__text h3 {
+    font-size: 53px;
+    margin-left: 346px;
+    margin-top: 110px;
+  }
+  .tours__3d__two__item__text h2 {
+    font-size: 61px;
+    margin-top: 170px;
+    margin-left: 465px;
+  }
+  .tours__3d__two__item__text h2 {
+    font-size: 61px;
+    margin-top: 166px;
+    margin-left: 449px;
+  }
+  .tours__3d__two__item__text p {
+    font-size: 13px;
+    width: 351px;
+    margin-top: 245px;
+    margin-left: 625px;
+  }
+  .tours__3d__two__item__text span {
+    font-size: 20px;
+  }
+  .tours__3d__two__item__text a {
+    padding: 17px 0;
+    width: 225px;
+    font-size: 17px;
+    margin-top: 30px;
+    margin-left: 630px;
+  }
+  .tur__3d__services {
+    width: 100%;
+    height: 450px;
+    margin-top: -90px;
+  }
+  .tur__3d__services__title h2 {
+    font-size: 35px;
+  }
+  .tur__3d__services__item__block {
+    width: 210px;
+    height: 300px;
+  }
+  .tur__3d__services__item__block__blue {
+    width: 210px;
+    height: 300px;
+  }
+  .tur__3d__services__item__block p {
+    font-size: 13px;
+    width: 90%;
+    padding-top: 20px;
+  }
+}
+@media screen and (max-width: 1030px) {
+  .page5__title h1 {
+    font-size: 100px;
+  }
+  .page5__title h2 {
+    font-size: 70px;
+    margin-top: 47px;
+    margin-left: 88px;
+  }
+  .page5__title h3 {
+    font-size: 34px;
+    margin-left: 124px;
+    margin-top: 27px;
+  }
+  .page5__title h4 {
+    font-size: 33px;
+    margin-top: 3px;
+    margin-left: 121px;
+  }
+  .page5__title p {
+    margin-top: 140px;
+    width: 290px;
+    font-size: 11px;
+    line-height: 17px;
+  }
+  .page5__title a {
+    padding: 12px 0;
+    width: 190px;
+    font-size: 15px;
+    margin-top: 280px;
+  }
+  .tours__3d__photo img {
+    width: 835px;
+    height: 560px;
+  }
+  .tours__3d__photo {
+    margin-top: -89px;
+    left: 135px;
+  }
+  .tours__3d__menu {
+    width: 650px;
+    margin-top: -92px;
+  }
+  .tours__3d__menu a {
+    margin-top: 16px;
+    padding: 16px 0px 35px 0;
+    font-size: 11px;
+  }
+  .tours__3d__menu__left:hover:after {
+    width: 127px;
+    height: 3px;
+    margin-left: 14px;
+    margin-top: 36px;
+  }
+  .tours__3d__menu__center:hover:after {
+    width: 123px;
+    height: 3px;
+    margin-left: 14px;
+    margin-top: 36px;
+  }
+  .tours__3d__menu__right:hover:after {
+    width: 150px;
+    height: 3px;
+    margin-left: 18px;
+    margin-top: 36px;
+  }
+  .fon__3d__photo img {
+    width: 800px;
+    height: 667px;
+  }
+  .fon__3d__photo {
+    position: relative;
+    margin-left: -120px;
+    margin-top: -95px;
+  }
+  .tours__3d__two__item__text h1 {
+    font-size: 137px;
+    margin-left: 235px;
+    margin-top: 118px;
+  }
+  .tours__3d__two__item__text h2 {
+    font-size: 51px;
+    margin-top: 142px;
+    margin-left: 404px;
+  }
+  .tours__3d__two__item__text h3 {
+    font-size: 51px;
+    margin-left: 318px;
+    margin-top: 89px;
+  }
+  .tours__3d__two__item__text p {
+    font-size: 12px;
+    width: 300px;
+    margin-top: 204px;
+    margin-left: 545px;
+    line-height: 17px;
+  }
+  .tours__3d__two__item__text span {
+    font-size: 15px;
+  }
+  .tours__3d__two__item__text a {
+    padding: 12px 0;
+    width: 170px;
+    font-size: 14px;
+    margin-top: 25px;
+    margin-left: 548px;
+  }
+  .tur__3d__services__content {
+    width: 92%;
+    margin: 25px 35px 35px 35px;
+  }
+  .tur__3d__services__title h2 {
+    font-size: 30px;
+  }
+  .tur__3d__services__item {
+    width: 99%;
+    margin-top: 25px;
+  }
+  .tur__3d__services__item__block {
+    width: 180px;
+    height: 240px;
+  }
+  .tur__3d__services__item__block__blue {
+    width: 180px;
+    height: 240px;
+  }
+  .tur__3d__services__item__block h3 {
+    font-size: 19px;
+    padding-top: 20px;
+  }
+  .tur__3d__services__item__block h4 {
+    font-size: 14px;
+    padding-top: 1px;
+  }
+  .tur__3d__services__item__block span {
+    width: 50px;
+    height: 1px;
+    margin-top: 5px;
+  }
+  .tur__3d__services__item__block p {
+    font-size: 10px;
+    width: 92%;
+    padding-top: 12px;
+  }
+  .tur__3d__services__item__block h5 {
+    font-size: 19px;
+    padding-top: 15px;
+  }
+  .tur__3d__services__item__block a {
+    width: 140px;
+    padding: 9px 0;
+    margin-top: 15px;
+    font-size: 14px;
+  }
+  .tur__3d__services__item__block__blue h3 {
+    font-size: 19px;
+    padding-top: 35px;
+  }
+  .tur__3d__services__item__block__blue span {
+    width: 55px;
+    height: 1px;
+    margin-top: 7px;
+  }
+  .tur__3d__services__item__block__blue p {
+    font-size: 11px;
+    width: 90%;
+    padding-top: 12px;
+  }
+  .tur__3d__services__item__block__blue a {
+    width: 140px;
+    padding: 9px 0;
+    margin-top: 15px;
+    font-size: 14px;
+  }
+  .tur__3d__services {
+    width: 100%;
+    height: 370px;
+    margin-top: -100px;
+  }
+}
+@media screen and (max-width: 880px) {
+  .page5__title h1 {
+    font-size: 90px;
+  }
+  .page5__title h2 {
+    font-size: 65px;
+    margin-top: 40px;
+    margin-left: 81px;
+  }
+  .page5__title h3 {
+    font-size: 29px;
+    margin-left: 113px;
+    margin-top: 24px;
+  }
+  .page5__title h4 {
+    font-size: 28px;
+    margin-top: 3px;
+    margin-left: 111px;
+  }
+  .page5__title {
+    margin-top: 15px;
+  }
+  .page5__title p {
+    margin-top: 130px;
+    width: 260px;
+    font-size: 8px;
+    line-height: 15px;
+  }
+  .page5__title a {
+    padding: 10px 0;
+    width: 160px;
+    font-size: 12px;
+    margin-top: 230px;
+  }
+  .tours__3d__photo {
+    margin-top: -135px;
+    left: 103px;
+  }
+  .tours__3d__photo img {
+    width: 650px;
+    height: 568px;
+  }
+  .tours__3d__menu {
+    width: 500px;
+    margin-top: -139px;
+  }
+  .tours__3d__menu a {
+    margin-top: 9px;
+    padding: 8px 0px 20px 0;
+    font-size: 9px;
+  }
+  .tours__3d__menu__center {
+    padding: 8px 20px !important;
+  }
+  .tours__3d__menu__left:hover:after {
+    width: 109px;
+    height: 2px;
+    margin-left: 11px;
+    margin-top: 23px;
+  }
+  .tours__3d__menu__center:hover:after {
+    width: 103px;
+    height: 2px;
+    margin-left: 10px;
+    margin-top: 23px;
+  }
+  .tours__3d__menu__right:hover:after {
+    width: 126px;
+    height: 2px;
+    margin-left: 13px;
+    margin-top: 23px;
+  }
+  .fon__3d__photo {
+    position: relative;
+    margin-left: -90px;
+    margin-top: -125px;
+  }
+  .fon__3d__photo img {
+    width: 650px;
+    height: 625px;
+  }
+  .tours__3d__two__item__text h1 {
+    font-size: 115px;
+    margin-left: 190px;
+    margin-top: 90px;
+  }
+  .tours__3d__two__item__text h2 {
+    font-size: 43px;
+    margin-top: 112px;
+    margin-left: 336px;
+  }
+  .tours__3d__two__item__text h3 {
+    font-size: 40px;
+    margin-left: 260px;
+    margin-top: 65px;
+  }
+  .tours__3d__two__item__text p {
+    font-size: 9px;
+    width: 256px;
+    margin-top: 165px;
+    margin-left: 455px;
+    line-height: 15px;
+  }
+  .tours__3d__two__item__text a {
+    padding: 9px 0;
+    width: 140px;
+    font-size: 11px;
+    margin-top: 15px;
+    margin-left: 458px;
+  }
+  .tur__3d__services {
+    width: 100%;
+    height: 300px;
+    margin-top: -130px;
+  }
+  .tur__3d__services__content {
+    width: 92%;
+    margin: 20px 30px 30px 30px;
+  }
+  .tur__3d__services__title h2 {
+    font-size: 25px;
+  }
+  .tur__3d__services__item {
+    width: 99%;
+    margin-top: 20px;
+  }
+  .tur__3d__services__item__block {
+    width: 155px;
+    height: 200px;
+  }
+  .tur__3d__services__item__block__blue {
+    width: 155px;
+    height: 200px;
+  }
+  .tur__3d__services__item__block h3 {
+    font-size: 17px;
+    padding-top: 17px;
+  }
+  .tur__3d__services__item__block h4 {
+    font-size: 12px;
+    padding-top: 0px;
+  }
+  .tur__3d__services__item__block span {
+    width: 45px;
+    height: 1px;
+    margin-top: 5px;
+  }
+  .tur__3d__services__item__block p {
+    font-size: 9px;
+    width: 92%;
+    padding-top: 10px;
+  }
+  .tur__3d__services__item__block h5 {
+    font-size: 17px;
+    padding-top: 13px;
+  }
+  .tur__3d__services__item__block a {
+    width: 110px;
+    padding: 7px 0;
+    margin-top: 15px;
+    font-size: 12px;
+  }
+  .tur__3d__services__item__block__blue h3 {
+    font-size: 17px;
+    padding-top: 30px;
+  }
+  .tur__3d__services__item__block__blue span {
+    width: 50px;
+    height: 1px;
+    margin-top: 7px;
+  }
+  .tur__3d__services__item__block__blue p {
+    font-size: 9px;
+    width: 90%;
+    padding-top: 12px;
+  }
+  .tur__3d__services__item__block__blue a {
+    width: 110px;
+    padding: 7px 0;
+    margin-top: 15px;
+    font-size: 12px;
+  }
+}
+@media screen and (max-width: 750px) {
+  .page5__title h1 {
+    font-size: 80px;
+  }
+  .page5__title h2 {
+    font-size: 55px;
+    margin-top: 38px;
+    margin-left: 69px;
+  }
+  .page5__title h3 {
+    font-size: 26px;
+    margin-left: 100px;
+    margin-top: 25px;
+  }
+  .page5__title h4 {
+    font-size: 25px;
+    margin-top: 6px;
+    margin-left: 99px;
+  }
+  .page5__title p {
+    margin-top: 110px;
+    width: 215px;
+    font-size: 7px;
+    line-height: 12px;
+  }
+  .page5__title a {
+    padding: 8px 0;
+    width: 130px;
+    font-size: 11px;
+    margin-top: 195px;
+  }
+  .tours__3d__photo {
+    margin-top: -150px;
+    left: 103px;
+  }
+  .tours__3d__photo img {
+    width: 520px;
+    height: 568px;
+  }
+  .tours__3d__menu {
+    width: 400px;
+    margin-top: -170px;
+    padding-left: 5px;
+    padding-right: 5px;
+  }
+  .tours__3d__menu__center {
+    padding: 4px 15px !important;
+  }
+  .tours__3d__menu a {
+    margin-top: 6px;
+    padding: 4px 0px 15px 0;
+    font-size: 7px;
+    height: 9px;
+  }
+  .tours__3d__menu__left:hover:after {
+    width: 84px;
+    height: 1px;
+    margin-left: 8px;
+    margin-top: 14px;
+  }
+  .tours__3d__menu__center:hover:after {
+    width: 77px;
+    height: 1px;
+    margin-left: 10px;
+    margin-top: 14px;
+  }
+  .tours__3d__menu__right:hover:after {
+    width: 94px;
+    height: 1px;
+    margin-left: 13px;
+    margin-top: 14px;
+  }
+  .fon__3d__photo {
+    position: relative;
+    margin-left: -75px;
+    margin-top: -175px;
+  }
+  .fon__3d__photo img {
+    width: 500px;
+    height: 625px;
+  }
+  .tours__3d__two__item__text h1 {
+    font-size: 75px;
+    margin-left: 140px;
+    margin-top: 64px;
+  }
+  .tours__3d__two__item__text h2 {
+    font-size: 37px;
+    margin-top: 74px;
+    margin-left: 234px;
+  }
+  .tours__3d__two__item__text h3 {
+    font-size: 34px;
+    margin-left: 184px;
+    margin-top: 41px;
+  }
+  .tours__3d__two__item__text p {
+    font-size: 7px;
+    width: 256px;
+    margin-top: 126px;
+    margin-left: 335px;
+  }
+  .tours__3d__two__item__text span {
+    font-size: 12px;
+  }
+  .tours__3d__two__item__text a {
+    padding: 8px 0;
+    width: 130px;
+    font-size: 10px;
+    margin-top: 12px;
+    margin-left: 335px;
+  }
+  .tur__3d__services {
+    width: 100%;
+    height: auto;
+    padding-bottom: 20px;
+    margin-top: -165px;
+  }
+  .tur__3d__services__title h2 {
+    font-size: 28px;
+  }
+  .tur__3d__services__item {
+    -webkit-justify-content: space-around;
+        -ms-flex-pack: distribute;
+            justify-content: space-around;
+    -webkit-flex-wrap: wrap;
+        -ms-flex-wrap: wrap;
+            flex-wrap: wrap;
+    margin-top: 0;
+  }
+  .tur__3d__services__item__block {
+    width: 180px;
+    height: 240px;
+    margin-top: 20px;
+  }
+  .tur__3d__services__item__block__blue {
+    width: 180px;
+    height: 240px;
+    margin-top: 20px;
+  }
+  .tur__3d__services__item__block h3 {
+    font-size: 19px;
+    padding-top: 20px;
+  }
+  .tur__3d__services__item__block h4 {
+    font-size: 14px;
+    padding-top: 1px;
+  }
+  .tur__3d__services__item__block span {
+    width: 50px;
+    height: 1px;
+    margin-top: 5px;
+  }
+  .tur__3d__services__item__block p {
+    font-size: 10px;
+    width: 92%;
+    padding-top: 12px;
+  }
+  .tur__3d__services__item__block h5 {
+    font-size: 19px;
+    padding-top: 15px;
+  }
+  .tur__3d__services__item__block a {
+    width: 140px;
+    padding: 9px 0;
+    margin-top: 15px;
+    font-size: 14px;
+  }
+  .tur__3d__services__item__block__blue h3 {
+    font-size: 19px;
+    padding-top: 35px;
+  }
+  .tur__3d__services__item__block__blue span {
+    width: 55px;
+    height: 1px;
+    margin-top: 7px;
+  }
+  .tur__3d__services__item__block__blue p {
+    font-size: 11px;
+    width: 90%;
+    padding-top: 12px;
+  }
+  .tur__3d__services__item__block__blue a {
+    width: 140px;
+    padding: 9px 0;
+    margin-top: 15px;
+    font-size: 14px;
+  }
+}
+@media screen and (max-width: 600px) {
+  .page5__title h1 {
+    font-size: 65px;
+  }
+  .page5__title h2 {
+    font-size: 40px;
+    margin-top: 32px;
+    margin-left: 58px;
+  }
+  .page5__title h3 {
+    font-size: 21px;
+    margin-left: 80px;
+    margin-top: 20px;
+  }
+  .page5__title h4 {
+    font-size: 20px;
+    margin-top: 6px;
+    margin-left: 78px;
+  }
+  .page5__title p {
+    margin-top: 85px;
+    width: 181px;
+    font-size: 8px;
+    line-height: 9px;
+  }
+  .tours__3d__photo {
+    margin-top: -160px;
+    left: 100px;
+  }
+  .tours__3d__photo img {
+    width: 429px;
+    height: 532px;
+  }
+  .page5__title a {
+    padding: 5px 0;
+    width: 90px;
+    font-size: 8px;
+    margin-top: 164px;
+  }
+  .tours__3d__menu a {
+    margin-top: 6px;
+    padding: 4px 0px 12px 0;
+    font-size: 7px;
+    height: 9px;
+  }
+  .tours__3d__menu__center {
+    padding: 4px 5px !important;
+  }
+  .tours__3d__menu {
+    width: 340px;
+    margin-top: -170px;
+    padding-left: 5px;
+    padding-right: 5px;
+  }
+  .tours__3d__menu__left:hover:after {
+    width: 85px;
+    height: 1px;
+    margin-left: 8px;
+    margin-top: 12px;
+  }
+  .tours__3d__menu__center:hover:after {
+    width: 76px;
+    height: 1px;
+    margin-left: 10px;
+    margin-top: 12px;
+  }
+  .tours__3d__menu__right:hover:after {
+    width: 97px;
+    height: 1px;
+    margin-left: 10px;
+    margin-top: 12px;
+  }
+  .tur__3d__services {
+    width: 100%;
+    height: auto;
+    padding-bottom: 20px;
+    margin-top: -115px;
+  }
+  .fon__3d__photo img {
+    width: 420px;
+    height: 463px;
+  }
+  .fon__3d__photo {
+    position: relative;
+    margin-left: -68px;
+    margin-top: -108px;
+  }
+  .tours__3d__two__item__text h1 {
+    font-size: 65px;
+    margin-left: 108px;
+    margin-top: 59px;
+  }
+  .tours__3d__two__item__text h2 {
+    font-size: 30px;
+    margin-top: 69px;
+    margin-left: 189px;
+  }
+  .tours__3d__two__item__text h3 {
+    font-size: 27px;
+    margin-left: 146px;
+    margin-top: 41px;
+  }
+  .tours__3d__two__item__text p {
+    font-size: 7px;
+    width: 184px;
+    margin-top: 111px;
+    margin-left: 242px;
+    line-height: 11px;
+  }
+  .tours__3d__two__item__text a {
+    padding: 6px 0;
+    width: 100px;
+    font-size: 9px;
+    margin-top: 10px;
+    margin-left: 242px;
+  }
+}
+@media screen and (max-width: 450px) {
+  .fon__3d__photo img {
+    width: 360px;
+    height: 420px;
+  }
+  .fon__3d__photo {
+    position: relative;
+    margin-left: -68px;
+    margin-top: -108px;
+  }
+  .tours__3d__two__item__text span {
+    font-size: 10px;
+  }
+  .tours__3d__two__item__text p {
+    font-size: 7px;
+    width: 166px;
+    margin-top: 89px;
+    margin-left: 195px;
+    line-height: 10px;
+  }
+  .tur__3d__services {
+    width: 100%;
+    height: auto;
+    padding-bottom: 20px;
+    margin-top: -104px;
+  }
+  .tours__3d__two__item__text a {
+    padding: 4px 0;
+    width: 91px;
+    font-size: 8px;
+    margin-top: 5px;
+    margin-left: 197px;
+  }
+  .tours__3d__two__item__text h1 {
+    font-size: 55px;
+    margin-left: 85px;
+    margin-top: 47px;
+  }
+  .tours__3d__two__item__text h2 {
+    font-size: 25px;
+    margin-top: 55px;
+    margin-left: 154px;
+  }
+  .tours__3d__two__item__text h3 {
+    font-size: 24px;
+    margin-left: 118px;
+    margin-top: 31px;
+  }
+  .tur__3d__services__item {
+    width: 91%;
+  }
+}

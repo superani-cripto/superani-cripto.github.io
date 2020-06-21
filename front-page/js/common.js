@@ -82,10 +82,11 @@ $ (function() {
         $('.form__tel__item') .show();
         $('.form__tel__item2') .hide();
     })
-    $('.search a') .click(function() {
+    $('.search') .click(function() {
         $('.form__tel') .show();
         $('.search__form') .show();
         $('.form__tel__item') .hide();
+        $('.form__tel__item2') .hide();
     })
     $('.guarantees__item2 a') .click(function() {
         $('.form__tel__item2') .show();
@@ -205,4 +206,9 @@ $('.burger__page6__seven').click(function(event) {
 $('.icons__delete__burger__seven').click(function(event) {
     $('.page6__menu__photo__seven,.page6__menu__photo__item__seven').removeClass('active');
     $('body').removeClass('lock');
+  });
+
+$('.menu__page7__item__title').click(function(event) {
+    $('.menu__page7__item__link a,.menu__page7__item__link,.brands').toggleClass('active');
+    $('body').toggleClass('lock');
   });

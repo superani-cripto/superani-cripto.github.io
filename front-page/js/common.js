@@ -58,6 +58,37 @@ $(function () {
         },
       ]
   });
+  $('.page10__min__slider').slick({
+    arrows:true,
+    dots:false,  
+    slidesToShow:4,
+    vertical:true,
+    asNavFor:".page10__big__slider",
+    responsive:[
+        {
+          breakpoint: 600,
+          settings: {
+            slidesToShow:3,
+            slidesToScroll:1,
+          }
+        },
+      ]
+  });
+  $('.page10__big__slider').slick({
+    arrows:false,
+    dots:false,  
+    slidesToShow:1,
+    asNavFor:".page10__min__slider",
+    responsive:[
+        {
+          breakpoint: 600,
+          settings: {
+            slidesToShow:1,
+            slidesToScroll:1,
+          }
+        },
+      ]
+  });
 });
 
  const anchors = document.querySelectorAll('a[href*="#"]');
